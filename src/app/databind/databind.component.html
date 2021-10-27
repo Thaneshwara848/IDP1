@@ -1,0 +1,16 @@
+<div style="padding-left: 30px;margin-left: 50px;">
+  <marquee >  <h1 > {{topic}} </h1> </marquee>
+
+  <h1> One way Data Binding..........</h1>
+  Interpolation : {{company}}<br>
+  Property  Binding:  <input type="button"  [value]="mybutvalue" (click)="abc()"><br>
+  Even Binding : <input type="button"  [value]="mybutvalue" (click)="abc()"><br>
+
+  <h1>two way Databinding.....</h1>
+
+  <input type="text"  [(ngModel)]="mydata" style="width: 300px;height: 40px;border-radius: 20px;">  
+
+<br>
+{{mydata}}
+</div> 
+

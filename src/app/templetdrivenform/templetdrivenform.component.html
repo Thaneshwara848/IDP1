@@ -1,0 +1,30 @@
+<!-- <div class="container">
+    <form name="forgotForm" #forgetForm="ngForm" action="">
+        <div class="row">
+            <div class="col-md-12">
+                <h4> Templet Driven Form Demo- Pasword Reset </h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <span id="success-msg" *ngIf="message!==''" style="color: green;font-weight: bold;"></span>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="useremail">Email ID :</label>
+                    <input required email #useremail="ngModel" ngModel type="email" class="form-control" id="usermail"
+                        placeholder="Enter email" name="usermail">
+                    <br>
+                    <span class="alert alert-danger" id="" *ngIf="useremail.invalid && useremail.errors['email']"></span>
+                </div >
+                <div class="col-md-12">
+                        <button class="btn btn-primary" (click)="submitForm()" [disabled]="forgetForm.invalid" id="submitButton">Send Email </button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div> -->
